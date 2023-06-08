@@ -1,0 +1,193 @@
+40789.47,Monaco
+20423.05,Singapore
+14186.05,Solomon Islands
+10243.9,The Republic of Macedonia
+5138.34,Bahrain
+3391.3,Maldives
+3388.43,Malta
+2991.06,Bangladesh
+1736.53,Barbados
+1651.84,Mauritius
+1462.21,Lebanon
+1404.26,San Marino
+1268.71,Republic of Korea
+1209.56,Rwanda
+1187.5,Nauru
+1100.0,Tuvalu
+1034.74,Netherlands
+1028.99,Marshall Islands
+974.07,India
+972.69,Israel
+967.89,Burundi
+952.03,Haiti
+929.8,Philippines
+903.99,Sri Lanka
+892.24,Comoros
+882.33,Belgium
+871.25,Japan
+842.59,Antigua and Barbuda
+833.33,Grenada
+763.17,El Salvador
+726.7,Vietnam
+705.63,United Kingdom
+669.46,Saint Lucia
+666.67,Saint Vincent and the Grenadines
+652.57,Jamaica
+632.08,Pakistan
+606.67,Trinidad and Tobago
+596.77,Liechtenstein
+587.61,Germany
+556.03,Dominican Republic
+545.52,Nepal
+535.16,Democratic People's Republic of Korea
+530.31,Italy
+528.74,Seychelles
+521.04,Luxembourg
+514.85,Saint Kitts and Nevis
+510.75,Sao Tome and Principe
+508.16,Switzerland
+496.82,Nigeria
+475.54,Qatar
+474.17,Gambia
+469.61,Andorra
+405.9,Micronesia
+393.92,Uganda
+392.44,Kuwait
+380.62,Tonga
+380.35,Malawi
+366.79,China
+357.14,Kiribati
+349.65,Guatemala
+348.11,Czech Republic
+346.82,Cape Verde
+344.87,Indonesia
+341.72,Thailand
+337.51,Togo
+336.54,Denmark
+335.95,Cyprus
+317.25,Poland
+313.91,France
+305.79,Portugal
+290.11,Azerbaijan
+285.23,Slovakia
+280.14,Ghana
+278.4,Hungary
+275.5,Republic of Moldova
+270.27,Albania
+269.72,Turkey
+269.42,Armenia
+256.99,Cuba
+255.53,Slovenia
+253.22,Austria
+251.82,Syrian Arab Republic
+251.72,Dominica
+244.16,Spain
+243.28,Costa Rica
+236.35,Malaysia
+235.76,Romania
+234.57,Benin
+231.63,Greece
+226.56,Ethiopia
+224.52,Egypt
+221.75,Cambodia
+213.22,Myanmar
+211.04,Serbia
+208.95,Timor-Leste
+208.83,Swaziland
+206.13,Croatia
+205.78,Sierra Leone
+200.82,Kenya
+198.72,Honduras
+197.3,Bosnia and Herzegovina
+192.63,Iraq
+191.4,Morocco
+190.06,Ukraine
+188.68,Brunei Darussalam
+183.13,Cote D'Ivoire
+182.98,Samoa
+182.05,Georgia
+178.95,Senegal
+173.93,Burkina Faso
+173.65,Jordan
+173.49,United Arab Emirates
+172.55,Tunisia
+167.3,Uzbekistan
+161.13,Bulgaria
+157.96,Mexico
+152.28,Ireland
+149.29,Lesotho
+146.6,Tajikistan
+141.44,Ecuador
+139.04,Lithuania
+138.75,Eritrea
+137.02,United Republic of Tanzania
+129.51,Montenegro
+128.04,Yemen
+127.55,Fiji
+126.97,Iran
+126.3,Afghanistan
+125.84,Cameroon
+123.47,Panama
+121.88,Guinea Bissau
+121.53,Nicaragua
+121.15,Guinea
+119.77,Belarus
+118.64,Palau
+104.8,Colombia
+102.66,South Africa
+102.38,Madagascar
+95.35,Liberia
+91.47,Zimbabwe
+90.42,Djibouti
+88.22,Latvia
+85.49,Democratic Republic of the Congo
+84.05,United States
+81.68,Venezuela
+79.81,Mozambique
+74.66,Estonia
+74.37,Lao People's Democratic Republic
+72.56,Kyrgyzstan
+66.49,Equatorial Guinea
+61.66,Brazil
+60.66,Peru
+59.72,Bahamas
+59.55,Chile
+57.37,Vanuatu
+55.83,Sweden
+50.59,Zambia
+49.24,Bhutan
+48.5,Uruguay
+48.48,South Sudan
+42.66,Paraguay
+42.41,New Zealand
+42.24,Somalia
+41.65,Algeria
+41.19,Argentina
+40.58,Finland
+39.68,Angola
+38.34,Belize
+36.93,Papua New Guinea
+36.69,Sudan
+35.74,Niger
+35.59,Republic of the Congo
+34.46,Mali
+34.29,Norway
+32.89,Saudi Arabia
+27.06,Turkmenistan
+26.78,Oman
+24.99,Bolivia
+23.0,Chad
+22.03,Central African Republic
+21.61,Russian Federation
+17.11,Kazakhstan
+16.45,Gabon
+9.79,Botswana
+9.13,Libyan Arab Jamahiriya
+9.03,Canada
+9.01,Suriname
+8.92,Guyana
+8.79,Mauritania
+8.05,Iceland
+7.58,Australia
+6.9,Namibia
+4.97,Mongolia
