@@ -160,7 +160,7 @@ ax.set_title('Y - Distance for Varied Angles')
 ax.legend((bBars[0],rBars[0]),('V = 30','V = 50'),loc ='upper left',
           fontsize = 'small') 
 
-
+plt.show()
 
 
 

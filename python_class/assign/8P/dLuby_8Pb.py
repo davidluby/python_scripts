@@ -98,3 +98,5 @@ while i < len(t)-2:
     i +=1
 plt.plot(t[0:498],x,t[0:498],x1,t[0:498],x2)
 plt.legend(['1.0','0.9','0.7'],loc='lower left')
+
+plt.show()

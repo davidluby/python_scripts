@@ -45,6 +45,6 @@ tan.set_title("Tangent")
 tan.set_xlabel("X in radians")
 tan.set_ylabel("tan(x)")
 tan.legend(('0-89','91-180'),loc = 'upper left',fontsize ='xx-small')
-
+plt.show()
 
 
