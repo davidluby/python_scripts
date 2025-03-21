@@ -1,0 +1,135 @@
+ 
+Program name         : marc  
+Job ID               : C:\Users\djl1048\OneDrive - USNH\2022_fall\ME 786\homework\9\602_job1   
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads :  
+Solver processes     :  
+Solver threads       :  
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Users\djl1048\OneDrive - USNH\2022_fall\ME 786\homework\9 
+Scratch directory    : C:\Users\djl1048\OneDrive - USNH\2022_fall\ME 786\homework\9 
+Default bin directory: C:\Program Files\VirtualApps\MSC.Software\Marc\2019.0.0\marc2019\bin\win64i8 
+Material database    : C:\Program Files\VirtualApps\MSC.Software\Marc\2019.0.0\marc2019\AF_flowmat\  
+  
+ 
+Tue 11/29/2022 
+06:28 PM
+ 
+ Marc 602_job1 begins execution
+
+     (c) COPYRIGHT 2019 MSC Software Corporation, all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION: Marc 2019, build 664220 (2019/07/01)
+
+
+
+     Date: Tue Nov 29 18:28:58 2022
+
+                              Marc execution begins
+ Date:          Tue Nov 29 18:28:58 2022
+ MSC Id:        d89ef39a3dfb (ethernet) (Intel)
+ Hostname:      MECH131 (user djl1048, display MECH131)
+ License files: 7242@132.177.88.127
+ CEID:          CBACA05B-7CB26AAA
+ User:          djl1048
+ Display:       MECH131
+ LAPI Version:  LAPI 10.4.6 (FLEXlm 11.13.1.3)
+Acquired 1 license for Marc from license server on host 132.177.88.127
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =     32571 MByte
+
+             general memory increasing from      25 MByte to     106 MByte
+
+   MSC Customer Entitlement ID
+        CBACA05B-7CB26AAA
+
+             wall time =           1.00
+
+             wall time =           1.00
+
+Returned 1 license for Marc
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           0        2552         0.0
+               solver: first part                    0           0         0.0
+               overallocation initial allocation   107    27997168        79.8
+               other:                                0        4144         0.0
+              allocated separately:
+               nodal vectors:                        0       11846         0.0
+               defined sets:                         0         338         0.0
+               transformations:                      0         408         0.0
+               kinematic boundary conditions:        0        1456         0.0
+               points, curves and surfaces:          0         590         0.0
+               mem_none:                             0       26492         0.1
+               element storage:                      0       38748         0.1
+               material properties:                  0        4048         0.0
+               executable and common blocks:        27     7000000        19.9
+               miscellaneous                         0        2170         0.0
+               ---------------------------------------------------------------
+               total:                              134    35089960
+
+               general memory allocated:           107    28003864
+               general memory used:                  0        6696
+
+               peak memory usage:                  159    41557520
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              0.04          0.02
+               total time for stiffness matrix assembly:          0.00          0.00
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.00          0.00
+               total time for matrix solution:                    0.00          0.00
+               total time for output:                             0.00          0.00
+               total time for miscellaneous:                      0.99          0.42
+               ---------------------------------------------------------------------
+               total time:                                        1.03          0.44
+
+
+             **************************************************************************
+
+
+             
+             Data errors have been detected during data input.  Refer to
+             output for location of error.  Likely causes are misspelled
+             keywords, mistyped lines or invalid input options.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2019
+
+                                        Exit number   13
+

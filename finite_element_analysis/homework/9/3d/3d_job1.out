@@ -1,0 +1,568 @@
+                            M               M
+                            W               W
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    M               M               M
+                    W               W               W
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                            M               M
+                            W               W
+
+             version: Marc 2019, build 664220 (2019/07/01)
+
+             machine type: WINDOWS
+
+             integer*8 version: integers are 64-bits
+
+             date: Tue Nov 29 17:22:23 2022
+
+
+             (c) COPYRIGHT 2019 MSC Software Corporation, all rights reserved
+
+                    Marc - W i n d o w s       
+
+                     i n p u t   d a t a
+
+
+                p a g e          1
+
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     title               job1
+                     $....MARC input file produced by Marc Mentat 2019 (64bit)
+                     $...................................
+                     $....input file using extended precision
+    card         5   extended
+                     $...................................
+                     sizing                                 0       630       882         0
+                     alloc                       25
+                     elements                     7
+    card        10   version                     14         2         0         0
+                     table                        0         0         2         1         1         0         0         1
+                     processor                    1         1         1         0
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+             general memory increasing from      25 MByte to     106 MByte
+
+
+             memory increased to        28003864 words during 
+             pre-reading of sets
+
+
+
+   MSC Customer Entitlement ID
+        CBACA05B-7CB26AAA
+
+
+
+                    *************************************************
+                    *************************************************
+
+                     program sizing and options requested as follows
+
+
+
+                     element type requested*************************         7
+                     number of elements in mesh*********************       630
+                     number of nodes in mesh************************       882
+                     load correction was suppressed*****************
+                     elastic re-analysis flagged********************
+                     values stored at all integration points********
+                     tape no.for input of coordinates + connectivity         5
+                     no.of different materials    1 max.no of slopes         5
+                     number of points on shell section *************        11
+                     new style input format will be used************
+                     requested number of element threads************         1
+                     requested number of solver threads*************         1
+                     extended precision input is used ************** 
+                     Marc input version ****************************        14
+                     maximum number of boundary conditions *********         3
+                     suppress echo of list items *******************
+                     suppress echo of bc summary *******************
+                     suppress echo of nurbs data *******************
+
+
+                     end of parameters and sizing
+                    *************************************************
+                    *************************************************
+
+
+
+
+
+                              key to stress, strain and displacement output
+
+
+
+                                        element type         7
+
+
+                              8-node isoparametric brick                             
+
+                              stresses and strains in global directions               
+                                1=xx                                                  
+                                2=yy                                                  
+                                3=zz                                                  
+                                4=xy                                                  
+                                5=yz                                                  
+                                6=xz                                                  
+                                                                                      
+                              displacements in global directions                      
+                                1=u global x direction                                
+                                2=v global y direction                                
+                                3=w global z direction                                
+
+             allocated     142896 words of memory due to nodal vectors
+
+
+             allocated       1540 words of memory due to boundary conditions
+
+
+             allocated         90 words of memory due to geometric points
+
+
+             allocated         46 words of memory due to geometric curves
+
+
+             allocated         26 words of memory due to geometric surfaces
+
+
+             allocated       3528 words of memory due to shell, user or contact transformations
+
+
+
+             workspace needed for input and stiffness assembly:           72112
+
+
+             internal core allocation parameters
+             degrees of freedom per node (ndeg)  3
+             max. number of coordinates per node  3
+             max. nodes per element (nnodmx)  8
+             max. invariants per int. points (neqst)  1
+             max.stress components per int. point (nstrmx)   6
+             strains per integration point (ngens)  6
+
+
+             flag for element storage (ielsto)  0
+             element data in core
+
+             memory usage per element group
+                group   # elements     nelsto      MByte            words
+                  1          630        1100           3            693000
+                ----------------------------------------------------------
+                total        630                       3            693000
+
+
+                              internal element variables
+
+
+
+                              internal element number         1  library code type    7
+                              number of nodes=  8
+                              stresses stored per integration point =  6
+                              direct continuum components stored =  3
+                              shear continuum components stored =  3
+                              shell/beam flag = 0
+                              curvilinear  coord. flag = 0
+                              int.points for elem. stiffness  8
+                              number of local inertia directions  3
+                              int.point for print if all points not flagged  9
+                              int. points for dist. surface loads (pressure)  4
+                              library code type =     7
+                              large disp. row counts     6    6    6   11   11   11
+
+
+
+                              residual load correction is switched off
+
+
+
+             $...................                                                                                                                                            
+
+             solver                                                                                                                                                          
+             ----------
+
+
+             multifrontal direct sparse solver invoked
+
+             optimize                    11                                                                                                                                  
+             ----------
+
+
+
+             metis nested dissection algorithm
+
+             points                                                                                                                                                          
+             ----------
+
+
+             connectivity                                                                                                                                                    
+             ----------
+
+             geometry id =                   1
+             material id =                   1
+
+                meshr1,  iprnt
+                      5      1
+                elem no., type,        nodes
+
+             coordinates                                                                                                                                                     
+             ----------
+
+             ncrd1 ,meshr1,iprnt
+                    3         5         1
+                   node      coordinates
+
+             define              facemt              set                 apply3_faces                                                                                        
+             ----------
+
+                   979: 2       980: 2       981: 2       982: 2       983: 2       984: 2       991: 2       992: 2
+                     echo suppressed for        52 items
+                     total number of items read:        60
+
+             define              node                set                 apply1_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                   109       112       114       116       885       887       889       906       908       910       920       922       924
+                     echo suppressed for        15 items
+                     total number of items read:        28
+
+             define              node                set                 apply2_nodes                                                                                        
+             ----------
+
+             a list of nodes given below 
+                    87        88        89        90       731       733       735       738       740       742       745       747       749
+                     echo suppressed for        15 items
+                     total number of items read:        28
+
+             attach node                                                                                                                                                     
+             ----------
+
+
+             allocated         40 words of memory due to attach options
+
+
+             nodes attached to point             2
+             a list of nodes given below 
+                    87
+
+             nodes attached to point             3
+             a list of nodes given below 
+                    90
+
+             nodes attached to point             4
+             a list of nodes given below 
+                   109
+
+             nodes attached to point             5
+             a list of nodes given below 
+                   116
+
+             nodes attached to point             6
+             a list of nodes given below 
+                   126
+
+             isotropic           structural                                                                                                                                  
+             ----------
+
+
+             isotropic material  material id =               1
+              elastic    yield criteria
+              isotropic  hardening rule
+
+             material name is:       material1               
+
+
+                 structural  property                         value       table id
+
+
+             *** error - poissons ratio is less than -1.0 or greater than .5
+             Youngs modulus                              2.00000E-01              0
+             Poissons ratio                              2.20000E+05              0
+             mass density                                0.00000E+00              0
+             shear modulus                               4.54543E-07              0
+             coefficient of thermal expansion            0.00000E+00              0
+             coefficient of diffusion expansion          0.00000E+00              0
+             Yield stress                                1.00000E+20              0
+             cost per unit volume                        0.00000E+00              0
+             cost per unit mass                          0.00000E+00              0
+
+
+
+             mat color                                                                                                                                                       
+             ----------
+
+
+             material id is:                  1
+                material type      =          1
+                material RGB color =        230         0         0
+
+             geometry                                                                                                                                                        
+             ----------
+
+
+             geometry name is:       geom1
+
+
+             geometry id =                 1
+             geometry RGB color =        230         0         0
+
+             geometric parameter       value
+                       1             0.00000E+00
+                       2             0.00000E+00
+                       3             0.00000E+00
+                       4             0.00000E+00
+                       5             0.00000E+00
+                       6             0.00000E+00
+                       7             0.00000E+00
+                       8             0.00000E+00
+
+             fixed disp                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition apply1
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  1 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             apply1_nodes
+
+             name of boundary condition apply2
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  2 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             apply2_nodes
+
+             dist loads                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition apply3
+
+             Load Type     1
+
+             Prescribed Distributed Pressure =     -1.00000E+02  table id is        0
+
+             Prescribed Distributed Pressure =      0.00000E+00  table id is        0
+
+             Prescribed Distributed Pressure =      0.00000E+00  table id is        0
+
+             applied to elem mn-face   
+
+             apply3_faces
+
+             loadcase            job1                                                                                                                                        
+             ----------
+
+
+             activate boundary condition apply1
+
+             activate boundary condition apply2
+
+             activate boundary condition apply3
+
+             no print                                                                                                                                                        
+             ----------
+
+
+             post                                                                                                                                                            
+             ----------
+
+             number of element variables on post file:    2
+
+             binary post file will be used
+
+             initial output frequency of post file:       1
+
+             Marc 2017 style post file (default)
+
+             post variable     1 is post code   17 =                                                 
+             post variable     2 is post code  311 =                                                 
+             maximum record length on binary post file=            882
+             approximate no. of words per increment on file=          35296
+
+
+             parameters                                                                                                                                                      
+             ----------
+
+
+             parameters set as follows 
+
+             predictor used for stress-strain calculation    1.00000E+00
+             penalty factor for boundary conditions          1.00000E+09
+             penalty for incompressibility - r-p flow        1.00000E+02
+             penalty for incompressibility - fluid flow      1.00000E+06
+             beta parameter for Newmark operator             2.50000E-01
+             gamma parameter for Newmark operator            5.00000E-01
+             gamma1 parameter for Single-Step-Houbolt        1.50000E+00
+             gamma parameter for Single-Step-Houbolt        -5.00000E-01
+             sharp angle for sticking/separating - 2D        8.62500E+00
+             sharp angle for sticking/separating - 3D        2.00000E+01
+             initial strain rate for r-p flow                1.00000E-04
+             lowest strain rate cut-off for r-p flow         1.00000E-06
+             fraction of dilatational stress neglected       1.00000E+00
+             factor for drilling d.o.f for shells            1.00000E-04
+             factor for displacement after rezoning          1.00000E+00
+
+             universal gas constant                          8.31400E+00
+             absolute temperature offset                     2.73150E+02
+             thermal properties evaluation weight            5.00000E-01
+             surface projection factor in ssh dynamics       0.00000E+00
+             Stefan Boltzmann constant                       5.67051E-08
+             Planck's second radiation constant              1.43877E-02
+             Speed of light in vacuum                        2.99790E+08
+             Permeability of vacuum                          1.25664E-06
+             Permittivity of vacuum                          8.85419E-12
+             maximum iterative displacement component        1.00000E+30
+             initial stiffness to simulate sticking          0.00000E+00
+             minimum angle between the normal vectors of 
+             contacting segments                             1.20000E+02
+             radiation reflection cut-off                    1.00000E-03
+             angle for averaging adjacent beams (s2s)        1.60000E+02
+             stabilizer stiffness for model sections         0.00000E+00
+
+             maximum change in temperature per iteration     1.00000E+02
+             maximum rbe3 conditioning number                0.10000E+07
+             gasket initial stress stiffness factor          4.00000E-01
+
+             end option                                                                                                                                                      
+             ----------
+
+             wall time =           1.00
+
+             *** error - PR12< -1.0 or >0.5 
+                          for isotropic material number               1
+                          at element number        421
+             first material problems occured between temperature    0.000E+00 and    0.000E+00
+             wall time =           1.00
+
+
+             direct symmetric multi-frontal sparse solver is invoked for region   1
+
+
+             number of element groups used:         1
+
+                group     # elements     element type     material                             formulation
+
+                   1         630             7                1                                    S
+ 
+               formulation:
+                     S:   small displacement
+ 
+
+
+
+               analysis ends because of         2 data errors
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           0       24304         0.1
+               solver: first part                    0           0         0.0
+               overallocation initial allocation   107    27973920        77.9
+               other:                                0        5640         0.0
+              allocated separately:
+               nodal vectors:                        1      144660         0.4
+               defined sets:                         0         682         0.0
+               transformations:                      0        3528         0.0
+               kinematic boundary conditions:        0        1540         0.0
+               points, curves and surfaces:          0         218         0.0
+               mem_none:                             0       36728         0.1
+               element storage:                      3      725236         2.0
+               material properties:                  0        4048         0.0
+               executable and common blocks:        27     7000000        19.5
+               miscellaneous                         0         250         0.0
+               ---------------------------------------------------------------
+               total:                              137    35920754
+
+               general memory allocated:           107    28003864
+               general memory used:                  0       29944
+
+               peak memory usage:                  159    41557520
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              0.08          0.08
+               total time for stiffness matrix assembly:          0.00          0.00
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.00          0.00
+               total time for matrix solution:                    0.00          0.00
+               total time for output:                             0.00          0.00
+               total time for miscellaneous:                      0.98          0.44
+               ---------------------------------------------------------------------
+               total time:                                        1.06          0.52
+
+
+             **************************************************************************
+
+
+             
+             Data errors have been detected during data input.  Refer to
+             output for location of error.  Likely causes are misspelled
+             keywords, mistyped lines or invalid input options.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2019
+
+                                        Exit number   13
+
